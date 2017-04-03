@@ -63,4 +63,5 @@ def encodeToMorse(message):
 
 
 def encodeToMorse2(message):
+        
     return ''.join([morseAlphabet[morse_code] for morse_code in message.strip().split(" ")])
